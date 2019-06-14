@@ -1,6 +1,8 @@
 <#
     .SYNOPSIS
         This Azure Automation runbook automates the scheduled shutdown and startup of virtual machines in an Azure subscription. 
+        Source from https://automys.com/library/asset/scheduled-virtual-machine-shutdown-startup-microsoft-azure
+        updated to use Azure Automation RunAs account and remove all code for Classic VMs.
 
     .DESCRIPTION
         The runbook implements a solution for scheduled power management of Azure virtual machines in combination with tags
